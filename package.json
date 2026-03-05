@@ -1,0 +1,17 @@
+{
+  "name": "webdevai-ecosystem",
+  "private": true,
+  "description": "Monorepo for WebDevAI SaaS Applications",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  }
+}
