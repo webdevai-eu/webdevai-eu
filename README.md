@@ -22,6 +22,18 @@ mAIstro to narzędzie typu "Boxed AI", które pozwala na błyskawiczne tworzenie
 - **AI:** Gemini 2.0 via Vertex AI
 - **Payments:** Stripe (Models: Free, Standard, Pro)
 
+- ## 📂 Project Structure (Monorepo)
+```text
+webdevai-eu/
+├── apps/                   # Subdomain Applications
+│   ├── app-hub/            # app.webdevai.eu (Central Portal)
+│   └── maistro/            # maistro.webdevai.eu (Priority AI Tool)
+├── packages/               # Shared Resources
+│   ├── aura-ui/            # Common UI Components
+│   ├── config/             # Shared Lint/Prettier Rules
+│   └── firebase/           # Portable Firebase Logic
+└── README.md               # Main Roadmap
+
 ### 📈 Mapa Drogowa (MVP)
 - [ ] **UI/UX:** Implementacja SPA Shell z Bottom Navigation.
 - [ ] **Dashboard:** Magic Input Bar dla "One-click generation".
